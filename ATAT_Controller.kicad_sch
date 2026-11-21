@@ -1,0 +1,706 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "16270d04-bb10-4c94-a0cc-3e825c3a36e8")
+	(paper "A4")
+	(lib_symbols)
+	(text "3.3V rail required for STM32 and CAN transceiver.\n5V rail required for DM542T control interfaces.\n24V nominal motor-driver supply and 12V LTT supply requirements to be confirmed.\nRegulators, input protection, and power connectors not yet selected.\nConfirm total power budget and available supply current.\n"
+		(exclude_from_sim no)
+		(at 132.08 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6e968f0-60e5-4d81-8095-09a54fa1922d")
+	)
+	(junction
+		(at 172.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "497f20f4-34c1-4687-8588-2aaadd7010be")
+	)
+	(junction
+		(at 172.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5646658d-42bf-4e4e-a6ed-66b964ad3fa4")
+	)
+	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a2aa0b1-77d1-466e-b140-fde6a4a12ecd")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb969b2-5de3-45a0-ba51-a62880763a2b")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184f87ec-b5e5-4007-abf3-8fed3e0a5826")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e20105-022c-494a-804a-e099baabd4bf")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab7ebb3-74ab-4133-8e07-273ad393822a")
+	)
+	(wire
+		(pts
+			(xy 160.02 53.34) (xy 175.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440fb2b7-11d4-46d8-91ad-e5d2dce1e3d1")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6267c5f0-5955-4f50-bff7-31fdb80e444f")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c8aae9-a71a-43dd-8b95-50c677071ecf")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72040653-1490-47bf-b808-b85ea989e70d")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e8aae0-4568-4366-b643-adec2682d88d")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83414b52-bef2-4076-b4fd-9afa82ab47d3")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967e822b-a682-4088-85f5-a59048effbf1")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adcacb5-bc24-4572-8680-8ba098a88bda")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6b10b8-32ea-4224-8824-5a6d65dfffeb")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8975e86-7212-4327-970c-4ea6a930c7bf")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f22e3c-f2a7-4706-b1c7-3715d759450b")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c5076c-b16d-4ba7-82e6-bb5db298b8fc")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc91fc86-f6ea-4fc5-8b04-7f33c4c3345f")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1df0d9-f5f9-48df-a0ec-e16f3ae81d01")
+	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74e5b88-3a89-4036-b8be-b308a7068910")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb6460d-1b41-4cba-a8ac-281c90d22c5c")
+	)
+	(sheet
+		(at 115.57 50.8)
+		(size 44.45 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06ef3615-d1be-45c1-9709-90018087d7d9")
+		(property "Sheetname" "STM32H503CBT6"
+			(at 115.57 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32H503CBT6.kicad_sch"
+			(at 115.57 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 115.57 53.34 180)
+			(uuid "6ed6eb31-8c68-4c29-b635-996eb058e4a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AZ_DIR" output
+			(at 160.02 53.34 0)
+			(uuid "f076b46c-9629-44cc-8f28-97d0c3acc6fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ_PUL" output
+			(at 160.02 55.88 0)
+			(uuid "df5f7656-fd8e-4b81-b7ba-74519f5cc452")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 115.57 55.88 180)
+			(uuid "c0f32119-6e03-404e-930d-63d75bc5a91e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELE_DIR" output
+			(at 160.02 63.5 0)
+			(uuid "0056517e-c39e-483e-894b-c148ca8f3a02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ELE_PUL" output
+			(at 160.02 66.04 0)
+			(uuid "62a4d05f-dbb1-4876-adae-f8314e184288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 160.02 83.82 0)
+			(uuid "a22f60cc-2e6a-4843-b047-efe6cd445290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ_CS" output
+			(at 160.02 68.58 0)
+			(uuid "2cea99d1-bf8b-454c-baf2-192fba5b0663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ELE_CS" output
+			(at 160.02 71.12 0)
+			(uuid "379119f0-9f5b-4f9f-a73b-70b74696c136")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" output
+			(at 160.02 73.66 0)
+			(uuid "3f7a2c59-f373-41ce-9141-ad15ff46bda3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 160.02 78.74 0)
+			(uuid "733992ed-905c-4142-b336-6826c34d5768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATAT_Controller"
+				(path "/16270d04-bb10-4c94-a0cc-3e825c3a36e8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 127)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82848a04-5a02-45bd-a2ad-baef56dfbea7")
+		(property "Sheetname" "POWER_SUPPLY"
+			(at 111.76 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 111.76 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ATAT_Controller"
+				(path "/16270d04-bb10-4c94-a0cc-3e825c3a36e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 50.8)
+		(size 40.64 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d19566b-1d3d-4b71-a75a-2729b59ad11c")
+		(property "Sheetname" "MOTOR CONTROL"
+			(at 175.26 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOTOR CONTROL.kicad_sch"
+			(at 175.26 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AZ_DIR" input
+			(at 175.26 53.34 180)
+			(uuid "8eeaaf90-f3da-463c-955e-880b82f81a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AZ_PUL" input
+			(at 175.26 55.88 180)
+			(uuid "02625706-277b-42b7-8ea9-df994c3a557e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELE_DIR" output
+			(at 175.26 63.5 180)
+			(uuid "3256a436-2391-4075-a51e-7db938a35a0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELE_PUL" output
+			(at 175.26 66.04 180)
+			(uuid "b6bdbc3e-6191-4f16-8107-bd6434d6e9fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AZ_CS" input
+			(at 175.26 68.58 180)
+			(uuid "b84f639e-e66d-4378-a272-55f6cc67fb76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ELE_CS" input
+			(at 175.26 71.12 180)
+			(uuid "6263f85a-b76a-4470-a932-2fd8915428f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 175.26 73.66 180)
+			(uuid "6e1eef93-d9c9-4041-97eb-53258f0d430b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 175.26 76.2 180)
+			(uuid "269c09e8-1d53-4e1a-a3a1-6d7767bb753d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 175.26 78.74 180)
+			(uuid "0dd44d39-af7e-487c-866c-f6bba737bc0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 175.26 81.28 180)
+			(uuid "6376fc29-c803-4688-aa90-630e40d6e957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 175.26 86.36 180)
+			(uuid "2174817e-f074-4bae-8e18-d6892cfc3f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 175.26 83.82 180)
+			(uuid "2d9cdf39-d5d1-4b60-a2d7-d9488b734367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ATAT_Controller"
+				(path "/16270d04-bb10-4c94-a0cc-3e825c3a36e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 50.8)
+		(size 33.02 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a838271c-3f80-4fc1-b131-ac2bad10f643")
+		(property "Sheetname" "ROCKETCAN"
+			(at 62.23 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ROCKETCAN.kicad_sch"
+			(at 62.484 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 62.23 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CANH" input
+			(at 62.23 53.34 180)
+			(uuid "48fc1625-a0c7-4366-a817-476dba9ebb19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" input
+			(at 62.23 55.88 180)
+			(uuid "56a3b9c4-6646-473c-9626-5e244afed209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 95.25 55.88 0)
+			(uuid "06f448fb-66cd-4fe9-9d1c-5e1d890630c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 95.25 53.34 0)
+			(uuid "8cec2d8e-1862-4e3f-ac34-e76f4f19e44d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATAT_Controller"
+				(path "/16270d04-bb10-4c94-a0cc-3e825c3a36e8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

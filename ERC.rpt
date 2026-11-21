@@ -1,0 +1,161 @@
+ERC report (2026-11-19T13:42:36, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2450 mils, 2100 mils): Hierarchical Sheet Pin 'CANH'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2450 mils, 2200 mils): Hierarchical Sheet Pin 'CANL'
+[footprint_link_issues]: The current configuration does not include the footprint library 'CAN_relay'
+    ; warning
+    @(4800 mils, 2900 mils): Symbol #PWR01 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'TCAN3413DDFR' doesn't match copy in library 'CAN_relay'
+    ; warning
+    @(4800 mils, 3650 mils): Symbol U2 [TCAN3413DDFR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CAN_relay'
+    ; warning
+    @(5900 mils, 2900 mils): Symbol #PWR02 [+3.3V]
+[lib_symbol_issues]: The symbol library '2026-11-11_23-51-41' was not found at 'C:/Users/alexy/Downloads/ul_ESDCAN01-2BLY/KiCADv6/2026-11-11_23-51-41.kicad_sym'
+    ; warning
+    @(6100 mils, 4600 mils): Symbol U3 [ESDCAN01-2BLY]
+
+***** Sheet /STM32H503CBT6/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 3150 mils): Symbol U1 Pin 5 [PH0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 3250 mils): Symbol U1 Pin 6 [PH1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 3450 mils): Symbol U1 Pin 2 [PC13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 3550 mils): Symbol U1 Pin 3 [PC14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 3650 mils): Symbol U1 Pin 4 [PC15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4050 mils): Symbol U1 Pin 20 [PB2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4150 mils): Symbol U1 Pin 39 [PB3(JTDO, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4250 mils): Symbol U1 Pin 40 [PB4(NJTRST), Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4350 mils): Symbol U1 Pin 41 [PB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4450 mils): Symbol U1 Pin 42 [PB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4550 mils): Symbol U1 Pin 43 [PB7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4650 mils): Symbol U1 Pin 45 [PB8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 4950 mils): Symbol U1 Pin 26 [PB13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 5050 mils): Symbol U1 Pin 27 [PB14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4800 mils, 5150 mils): Symbol U1 Pin 28 [PB15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3150 mils): Symbol U1 Pin 14 [PA4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3550 mils): Symbol U1 Pin 29 [PA8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3650 mils): Symbol U1 Pin 30 [PA9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3750 mils): Symbol U1 Pin 31 [PA10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3850 mils): Symbol U1 Pin 32 [PA11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3950 mils): Symbol U1 Pin 33 [PA12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4250 mils): Symbol U1 Pin 38 [PA15(JTDI), Bidirectional, Line]
+[multiple_net_names]: Both +3.3V and VTref are attached to the same items; +3.3V will be used in the netlist
+    ; warning
+    @(5850 mils, 1600 mils): Symbol #PWR018 Pin 1 [Power input, Line]
+    @(6050 mils, 1650 mils): Label 'VTref'
+
+***** Sheet /ROCKETCAN/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4800 mils, 2900 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4800 mils, 4300 mils): Symbol #PWR03 Pin 1 [Power input, Line]
+
+***** Sheet /MOTOR CONTROL/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 3850 mils): Symbol U4 Pin 12 [CLK, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3650 mils, 3850 mils): Symbol U4 Pin 12 [CLK, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 5450 mils): Symbol U4 Pin 26 [SWN/DIAG0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 5550 mils): Symbol U4 Pin 27 [SWP/DIAG1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 10800 mils): Symbol U5 Pin 12 [CLK, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3650 mils, 10800 mils): Symbol U5 Pin 12 [CLK, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 12400 mils): Symbol U5 Pin 26 [SWN/DIAG0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 12500 mils): Symbol U5 Pin 27 [SWP/DIAG1, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4150 mils, 3350 mils): Symbol U4 Pin 29 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4150 mils, 10300 mils): Symbol U5 Pin 29 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(4350 mils, 3350 mils): Symbol U4 Pin 3 [12VOUT, Power output, Line]
+    @(4250 mils, 3350 mils): Symbol U4 Pin 5 [5VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(4350 mils, 10300 mils): Symbol U5 Pin 3 [12VOUT, Power output, Line]
+    @(4250 mils, 10300 mils): Symbol U5 Pin 5 [5VOUT, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4700 mils, 2050 mils): Symbol #PWR09 Pin 1 [Power input, Line]
+[multiple_net_names]: Both CS and AZ_CS are attached to the same items; CS will be used in the netlist
+    ; warning
+    @(1850 mils, 4200 mils): Label 'CS'
+    @(1500 mils, 4200 mils): Hierarchical Label 'AZ_CS'
+[multiple_net_names]: Both ELE_CS and EL_CS are attached to the same items; ELE_CS will be used in the netlist
+    ; warning
+    @(3400 mils, 11000 mils): Label 'ELE_CS'
+    @(1500 mils, 11150 mils): Hierarchical Label 'EL_CS'
+
+ ** ERC messages: 46  Errors 39  Warnings 7
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
